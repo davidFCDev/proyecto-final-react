@@ -1,4 +1,7 @@
 import React from 'react';
+import Counter from './Counter';
+import TaskList from './lists/TaskList';
+import Settings from './settings/Settings';
 
 /**
  *
@@ -7,7 +10,9 @@ import React from 'react';
 const App = () => {
     return (
       <div>
-        <h1>Plantilla Webpack</h1>
+        {/* <TaskList />
+        <Settings /> */}
+        <Counter />
       </div>
     );
 };
