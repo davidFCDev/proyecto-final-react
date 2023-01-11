@@ -11,6 +11,7 @@ import App from './components/App';
 
 import './styles/css/index.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles/css/index.css';
 
 // TODO Create store and middleware Redux Saga
 

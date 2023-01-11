@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.App {
+    height: 100vh;
+    padding: 20px;
+    transition: 0.3s;
+    background-color: rgb(216, 245, 216);
+}
+
+.App.dark {
+    background-color: #262626;
+    color: #05fd7d;
+    transition: 0.3s;
+}
+
+.input {
+    padding: 5px 10px;
+    margin: 4px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    border: solid 1px rgb(77, 76, 76);
+}
+
+.dark.input {
+    background-color: #4b4b4b;
+    color: white;
+}
+
+.btn {
+    background-color: #05fd7d !important;
+    cursor: pointer;
+    padding: 4px 15px !important;
+    box-shadow: 0 0 10px rgb(156, 156, 156);
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    margin: 4px;
+    margin-bottom: 8px;
+}
+
+.dark.btn {
+    color: white;
+    background-color: #4b4b4b;
+}
+

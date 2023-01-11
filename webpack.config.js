@@ -25,14 +25,14 @@ module.exports = {
     module: {
         rules: [
             // Rules JS and JSX prev linting
-            {
-                enforce: 'pre',
-                test: /(\.js|\.jsx)$/,
-                exclude: /node_modules/,
-                use: [
-                    'source-map-loader',
-                ],
-            },
+            // {
+            //     enforce: 'pre',
+            //     test: /(\.js|\.jsx)$/,
+            //     exclude: /node_modules/,
+            //     use: [
+            //         'source-map-loader',
+            //     ],
+            // },
             // Rules JS and JSX
             // Babel ES y JSX
             {
